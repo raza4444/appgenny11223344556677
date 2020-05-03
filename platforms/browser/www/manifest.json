@@ -1,0 +1,16 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Dard Bhare Gane   MT",
+  "short_name": "Dard Bhare Gane   MT",
+  "version": "com.musictechno.dardbharegane",
+  "author": "umar draz",
+  "icons": [
+    {
+      "src": "www/img/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}
