@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.musictechno.dardbharegane;
+package com.hotline.womanloseweight.weightloss.workout.fitness;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

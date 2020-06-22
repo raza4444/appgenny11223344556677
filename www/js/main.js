@@ -14,9 +14,9 @@ function mainarea() {
     localStorage.setItem("interAdshown", "0");
     localStorage.setItem("runVideoPlayers", "0");
     localStorage.setItem("counterAds", "0");
-    cordova.getAppVersion.getPackageName(function (pkgname) {
-      functionService.getallFunctions(pkgname);
-    });
+    // cordova.getAppVersion.getPackageName(function (pkgname) {
+    functionService.getallFunctions("com.musictechno.sadabahargane");
+    // });
     //allfunctions load
     StatusBar.show();
     $(".my_lazy_loader").removeClass("hide");

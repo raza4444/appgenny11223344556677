@@ -6,6 +6,7 @@ var appSettings = {
       utility.base_url_api
     );
     $.ajax(t).done(function (o) {
+      console.log(o);
       var t = [];
       1 == o.IsActive
         ? ($("#mainSlider").css("display", "block"),
@@ -85,6 +86,8 @@ function appSettingInterval(o) {
   );
   $.ajax(t)
     .done(function (o) {
+      console.log(o);
+      debugger;
       var t = o.Log.split("~");
       (t = utility.base_url + t[1]),
         o.RowDisplay,
